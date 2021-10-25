@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Huiswerkopgave_7</title>
+</head>
+  <body>
+    <h1>Tandartsafspraak</h1>
+      <h3>Informatie over de praktijk</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut est velit, semper sed ipsum id, eleifend dignissim orci.<br>Pellentesque vehicula, massa id ornare pharetra, felis dui viverra turpis, id efficitur turpis elit ut est.<br>Fusce accumsan ipsum et turpis congue, vel molestie odio tincidunt. In hac habitasse platea dictumst. Fusce sed vehicula ipsum, id ullamcorper lorem.<br>Morbi lobortis lectus cursus urna eleifend feugiat. Donec maximus ullamcorper vestibulum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br> Etiam a risus sem. Etiam laoreet dui in velit accumsan euismod.<br>
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean a ante eros. Aliquam dui velit, viverra ac egestas in, tincidunt eu erat.<br>Etiam auctor pulvinar magna et laoreet. Nam accumsan sodales quam, vitae.</p>
+          <p><img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Interieur%2C_overzicht_van_een_behandelkamer_van_de_tandartsenpraktijk_-_Dwingeloo_-_20534053_-_RCE.jpg" alt="" width="300" height="300">
+              <img src="https://www.radiouniversidad.unlp.edu.ar/wp-content/uploads/2014/10/elegir-odontologo.jpg" alt="" width="300" height="300">
+                <img src="https://maken.wikiwijs.nl/generated/s1152x864_5cf447a4d9950cbbeda0f3e5b805f0c542e373ab.jpg" alt="" width="300" height="300">
+          </p>
+          <hr>
+          <p><h2>Persoonlijke gegevens en klachtenbeschrijving</h2>
+            <form id="Klachtenformulier" action="https://formspree.io/f/xbjqejey" method="post">
+              <fieldset>
+                <legend><b>Persoonlijke gegevens</b></legend>
+                  <label for="naam"><b>Naam:</b></label>
+                    <input id="naam" type="text" name="naam"><br><br>
+                      <input type="radio" name="aanhef" value="Dhr" checked>Dhr
+                        <input type="radio" name="aanhef" value="Mevr">Mevr
+                          <input type="radio" name="aanhef" value="anders">Anders <br><br>
+                            <label for="adres"><b>Adres:</b></label>
+                              <input type="text" id="adres" name="adres"><br><br>
+                              <label for="postcode"><b>Postcode:</b></label>
+                                <input type="text" id="postcode" name="postcode"><br><br>
+                                  <label for="woonplaats"><b>Woonplaats:</b></label>
+                                    <input type="text" id="woonplaats" name="woonplaats"><br><br>
+                                    <label for="Email"><b>Email:</b></label>
+                                      <input type="text" id="Email" name="Email"><br><br>
+                                        <label for="Telefoonnummer"><b>Telefoonnummer</b></label>
+                                          <input type="text" id="Telefoonnummer" name="Telefoonnummer"><br><br>
+              </fieldset><br>
+                <fieldset>
+                  <legend><b>Beschrijving van de Klachten</b></legend><br>
+                  <input type="checkbox" name="klachtenbeschrijving" value="ja">Kiespijn
+                    <input type="checkbox" name="klachtenbeschrijving" value="ja">Afgebroken Tand
+                      <input type="checkbox" name="klachtenbeschrijving" value="ja">Vulling eruit<br><br>
+                      <label for="foto">Foto van de klacht</label>
+                        <input type="file" id="foto" name="foto van de klacht"><br><br>
+                </fieldset><br>
+                  <fieldset>
+                    <legend><b>Toelichting van de Klachten</b></legend><br>
+                    <b>Beschrijf uw klacht</b><br>
+                      <textarea name="toelichting" maxlength="1500">
+                        </textarea>
+                        <p><b>Selecteer de eerste dag van pijnklachten</b><br>
+                          <input type="date" name="datum" max="2080-12-31"><br>
+                        </P>
+                  </fieldset><br>
+          <input type="submit" value="Verzend">
+      </form>
+  </body>
+</html>
